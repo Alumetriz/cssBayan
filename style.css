@@ -89,3 +89,39 @@
     content: '';
     background-image: url("./source/images/cross-small-svgrepo-com.svg");
 }
+
+/*--------------*/
+
+@media (max-width: 820px) {
+    .accordion-item__trigger {
+        font-size: 30px;
+    }
+    .accordion-item__content-img {
+        display: block;
+        margin: 0 auto;
+        max-height: 500px;
+        max-width: 500px;
+    }
+}
+@media (max-width: 380px) {
+    .accordion-item__trigger {
+        font-size: 17px;
+    }
+    .accordion-item__content-img {
+        display: block;
+        margin: 0 auto;
+        max-height: 300px;
+        max-width: 200px;
+    }
+}
+@media (min-width: 1440px) {
+    .accordion-item__trigger {
+        font-size: 30px;
+    }
+    .accordion-item__content-img {
+        display: block;
+        margin: 0 auto;
+        max-height: 500px;
+        max-width: 500px;
+    }
+}
